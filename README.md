@@ -1,2 +1,2 @@
-# snake-game
-this is a snake game done by GA
+# Tactica-game
+This is a Tactica game for project 1 of my Software Engineering Bootcamp with General Assemply.
