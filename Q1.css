@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Question container */
+.question-container {
+  background-image: url("download.png");
+  background-color: white;
+  width: 90%;
+  max-width: 830px;
+  padding: 110px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Top image */
+.question-image {
+  width: 280px;
+  height: 110px;
+  margin: 0 auto 50px;
+  background-image: url("44579da5c74806468a4f0ae4bbc2dac2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Question title */
+.question-title {
+  font-size: 24px;
+  background-color: rgba(250, 207, 207, 0.75);
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+
+/* Answers container */
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Answer buttons */
+.answer {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.answer:hover {
+  background-color: rgb(212, 108, 212);
+}
+
+/* Correct / Wrong */
+.correct {
+  background-color: greenyellow;
+}
+
+.wrong {
+  background-color: red;
+}

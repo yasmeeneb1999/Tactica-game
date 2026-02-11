@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.result-container h1 {
+  margin-bottom: 20px;
+  color: #2a5298;
+}
+
+#finalScore {
+  font-size: 24px;
+  margin: 15px 0;
+  color: #333;
+}
+
+#resultMessage {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.back-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background-color: purple;
+  transform: scale(1.05);
+}

@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+body {
+  background-image: url("fa977d4f0374ff6dec31f7853a3ee9ab.jpg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+/* Instructions container */
+.instructions-page {
+  background-color: white;
+  width: 80%;
+  max-width: 700px;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.instructions-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* List styling */
+.instructions-page ol {
+  margin-left: 20px;
+  line-height: 1.7;
+}
+
+.instructions-page ul {
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+/* Button */
+.instructions-page button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: #f3e3a1;
+  border: 2px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.instructions-page button:hover {
+  background-color: #e6d27c;
+}

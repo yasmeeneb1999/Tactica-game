@@ -1,0 +1,116 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Background ===== */
+body {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Main Container ===== */
+.container {
+  background-color: white;
+  width: 90%;
+  max-width: 1050px;
+  padding: 140px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  background-image: url("2ece1d95982302ca92e83a2c505d5f94.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.question-image {
+  width: 210px;
+  height: 210px;
+  margin: 0 auto 50px;
+  background-image: url("98eed2c396e07623c5414618779e1b2f.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ===== Title ===== */
+h1 {
+  font-size: 56px;
+  margin-bottom: 15px;
+}
+
+/* ===== Subtitle ===== */
+.subtitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+  background-color: white;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* ===== Question Box ===== */
+#questionBox {
+  margin-top: 20px;
+}
+
+/* Question text */
+#question {
+  font-size: 22px;
+  background-color: #f3e3a1;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+/* Answers layout */
+#answers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Answer buttons */
+#answers button {
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: #eaf6ff;
+  transition: 0.3s;
+}
+
+#answers button:hover {
+  background-color: #b9e2ff;
+  transform: scale(1.03);
+}
+
+/* Start Button */
+.buttons button {
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgba(251, 0, 0, 0.653);
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: purple;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}

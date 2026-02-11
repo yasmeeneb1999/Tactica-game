@@ -2,14 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <script defer src="./script.js"></script>
     <title>Tactica Game</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Tactica Game</h1>
-    <h2>By:Yasmeen</h2>
-    <h3>Date: February 5th, 2026</h3>
+    <div class="container">
+      <h1>Tactica Game</h1>
+      <div class="question-image"></div>
+      <p class="subtitle">Learn about Bahrain while competing!</p>
+
+      <div id="questionBox" class="hidden">
+        <p id="question"></p>
+        <div id="answers"></div>
+      </div>
+
+      <a href="./Startgame.html">
+        <div class="buttons">
+          <button onclick="startGame()">Start Game</button>
+        </div>
+      </a>
+    </div>
+
+    <script defer src="script.js"></script>
   </body>
 </html>

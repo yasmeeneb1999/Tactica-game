@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>instructions-page</title>
+    <link rel="stylesheet" href="Instructions-page.css" />
+  </head>
+  <body>
+    <div class="instructions-page">
+      <h2>🎮 Game Instructions</h2>
+
+      <ol>
+        <li>
+          There will be <strong>One player</strong>, the button will choose
+          which one you will get.
+        </li>
+
+        <li>
+          On your turn, button will choose either:
+          <ul>
+            <li><strong>🎲 Risky</strong></li>
+            <li><strong>🧠 Intelligence</strong></li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>Risky Button:</strong><br />
+          Gives a random result:
+          <ul>
+            <li>-2 points</li>
+            <li>+4 points</li>
+          </ul>
+          After choosing Risky, the turn switches to the other player.
+        </li>
+
+        <li>
+          <strong>Intelligence Button: -</strong><br />
+          The player will answer a questions.
+          <ul>
+            <li>Correct answer: <strong>+2 points</strong></li>
+            <li>Wrong answer: <strong>0 points</strong></li>
+          </ul>
+        </li>
+
+        <li>The player will get <strong>high score wins</strong>.</li>
+
+        <li>At the end of the game, go <strong>Back Game.</strong></li>
+      </ol>
+      <a href="./Startgame.html">
+        <div class="buttons">
+          <button onclick="backGame()">Back Game</button>
+        </div>
+      </a>
+    </div>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
