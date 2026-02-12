@@ -23,7 +23,7 @@ title.textContent = `You got ${points} points! Player 1's score is ${player1Scor
 // Back Game function
 function backGame() {
   // Reset scores
-  localStorage.setItem("player1Score", +4)
+  localStorage.setItem("player1Score", 0)
 
   // Go back to start page
   window.location.href = "Startgame.html"
