@@ -30,7 +30,7 @@ Get started with the project: -
 ***
 
 ### ***Screenshots***
-![Tactica-game]: (https://github.com/SEB-12-Bahrain/u1_project)
+![Tactica-game]: Tacticagame.surge.sh
 
 ### ***Future Updates***
 - Two-player turn-based gameplay
